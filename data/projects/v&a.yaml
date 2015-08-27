@@ -1,0 +1,14 @@
+title: 'V&A Treasure Hunt'
+background: '#27ae60'
+screenshot: 'img/v&a.png'
+status: 'offline'
+tags:
+  - HTML
+  - CSS
+details:
+  - This hack was created as a concept for a new way of engaging people at Museums.
+  - We based it on the V&A museum in London because they had the most-complete dataset at the time.
+  - The idea behind this project was to engage children more at museums by creating a treasure hunt around the exhibits.
+  - Users would participate by using the app on their phones and they had to goto specified exhibits as listed on the application and scan a QR code, to mark that exhibit as visted.
+  - This would allow the museum to get more people to specific exhibits, if they wanted to, and to see which exhibits get the most visits.
+  - My role in the application was to work on the web dashboard, where each exhibit was assigned a QR code which could then be downloadable through the web interface.

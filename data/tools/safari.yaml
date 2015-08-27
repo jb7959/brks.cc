@@ -1,0 +1,4 @@
+name: 'Safari'
+icon: 'safari.png'
+description: 'In addition to Google Chrome and Firefox, I use Safari for testing my webpages as it runs on a different engine to Chrome and Firefox.'
+colour: 'blue'

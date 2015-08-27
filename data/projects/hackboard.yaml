@@ -1,0 +1,15 @@
+title: 'Hackboard'
+background: '#9C27B0'
+screenshot: 'img/hackboard.png'
+status: 'offline'
+tags:
+  - HTML
+  - Sass
+  - JavaScript
+  - jQuery
+  - Polymer
+details:
+  - HackBoard is a remake of HackPanel with a more modern design and using new web technologies.
+  - I decided to use the Polymer framework with this application, to utilize Web Components.
+  - The application was created as part of a contest with Young Rewired State and SAP, which we ended up winning.
+  - Differences with HackPanel include integration with the EventBrite API to populate the application with more events and a design that better follows the Material Design specification.

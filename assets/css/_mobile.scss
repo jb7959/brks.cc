@@ -1,0 +1,142 @@
+@media (max-width: 900px) {
+  .wrap {
+    width: auto !important;
+  }
+
+  #site-head {
+    height: 600px !important;
+  }
+
+  #projects .project {
+    margin: 10px !important;
+    width: auto !important;
+    .browser {
+      margin: 10px !important;
+      width: auto !important;
+      max-width: inherit !important;
+    }
+    .info-container {
+      margin: 10px !important;
+      display: block !important;
+      float: left !important;
+    }
+  }
+
+  #young-rewired .wrap {
+    margin-left: 100px !important;
+    margin-right: 100px !important;
+  }
+
+  #about {
+    .editor {
+      margin: 20px !important;
+      width: auto !important;
+      display: block !important;
+    }
+  }
+
+  #tools {
+    .content {
+      .mac {
+        width: 100vw !important;
+      }
+      #tools-list {
+        display: block !important;
+        li {
+          display: block !important;
+          margin: 20px !important;
+          width: auto !important;
+        }
+      }
+    }
+  }
+
+  #skills {
+    padding: 30px !important;
+    h1 {
+      display: block !important;
+      margin-left: 0px !important;
+    }
+    #skills-list {
+      margin-top: 30px !important;
+      padding: 50px 0px !important;
+      li {
+        float: none !important;
+        margin: -30px 0px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+    }
+    #descriptions {
+      columns: 1 !important;
+      -moz-columns: 1 !important;
+      -webkit-columns: 1 !important;
+      max-width: 300px !important;
+      p {
+        margin: 20px 0px 50px !important;
+        font-size: 3vw !important;
+      }
+    }
+  }
+
+  #footer .wrap {
+    display: block !important;
+    margin: 50px 120px !important;
+    .left {
+      margin: 0 auto !important;
+      display: block !important;
+      max-width: none !important;
+      form {
+        input {
+          max-width: none !important;
+        }
+        textarea {
+          max-width: none !important;
+        }
+        .button {
+          padding: 8px 0px !important;
+          width: 100% !important;
+        }
+      }
+    }
+    .right {
+      margin: 0 auto !important;
+      display: block !important;
+      max-width: none !important;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  #site-head {
+    h1 {
+      font-size: 12vw !important;
+    }
+    h3 {
+      font-size: 4.5vw !important;
+    }
+  }
+  #about .editor {
+    .window {
+      p {
+        font-size: 4.2vw !important;
+      }
+    }
+  }
+
+  #tools {
+    .content {
+      h1 {
+        font-size: 6.5vw !important;
+      }
+    }
+  }
+
+  #skills {
+    #descriptions {
+      p {
+        font-size: 5.3vw !important;
+      }
+    }
+  }
+}

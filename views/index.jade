@@ -1,0 +1,132 @@
+extends layout
+
+block content
+  .wrap
+    h2 Recent Work
+    ul#projects 
+      each project in data.projects
+        li.project(style={'background-color': project.background})
+          .browser
+            .top-bar
+              .buttons
+                .red
+                .orange
+                .green
+              span.address-bar
+                if project.link
+                  a(target="_blank", href=project.link)= project.link
+                else
+                  a(target="_blank")
+            .window
+              img(src=project.screenshot)
+          .info-container
+            .info
+              h1= project.title
+              h3 Status: #[span(class=project.status)] #{project.status}
+              h4.tags Tags:
+              ul#tags
+                each tag in project.tags
+                  li= tag
+              br
+              h4.details Details:
+              ul#details
+                each detail in project.details
+                  li= detail
+  #young-rewired
+    .wrap
+      .content
+        img(src="img/ruby-eyes.gif")
+        h1 I'm an Ambassador for #[a(href="http://yrs.io") Young Rewired State]
+        p Young Rewired State Ambassadors are the most passionate and enthusiastic members of the community. They help foster the local community in their region and work with the core team to put on awesome events.
+  #about
+    h2 About Me
+    .editor
+      .top-bar
+        .buttons
+          .red
+          .orange
+          .green
+        span untitled - Atom
+      .window
+        p I'm #[span.blue James], I'm a #[span.pink Web developer] and I'm #[span.amber 15 years old]. I have been programming as a hobby for #[span.red 3 years], and I specialize in #[span.green Front-end web development]. However, I've also had experience with #[span.purple Python]. I love attending tech events such as #[span.orange hackathons] and #[span.teal conferences]. When I'm not at my desk, I enjoy #[span.indigo watching movies] and #[span.bluegrey taking photos].
+  #tools
+    .shadow
+    .background
+    .content
+      img(class="mac", src="img/mac.png")
+      h1 My Development Toolkit
+      ul#tools-list
+        each tool in data.tools
+          li
+            img(class="icon", src="img/" + tool.icon)
+            span(class=tool.colour)= tool.name
+            p= tool.description
+  #skills
+        img(class="strength-img", src="img/dumbbell.png")
+        h1 My Strengths
+        ul#skills-list
+          li
+            .info
+              img(src="img/prototype.png")
+              h3 Prototyping
+          li
+            .info
+              img(src="img/development.png")
+              h3 Development
+          li
+            .info
+              img(src="img/design.png")
+              h3 Design
+        #descriptions
+          p I am skilled at producing rapid prototypes that are built-to-purpose.
+          p Turning a design into reality with code is my forté.
+          p I can complete a range of design work, from identity to styling.
+  #footer
+    .wrap
+      .left
+        h1 Get in Touch
+        form(action="//formspree.io/james@brks.cc", method="POST")
+          label(for="name") Name:
+          input(placeholder="Bertram Gilfoyle", class="text", type="text", name="name", id="name")
+          label(for="email") Email:
+          input(placeholder="gilfoyle@piedpiper.com", class="text", type="email", name="_replyto", id="email")
+          label(for="subject") Subject:
+          input(placeholder="Pied Piper", class="text", type="text", name="_subject", id="subject")
+          label(for="message") Message:
+          textarea(class="text", id="message")
+          input(class="button", type="submit", value="Send")
+      .right
+        #location
+          #map
+        h1 By Email
+        #mail
+          a(href="mailto:james@brks.cc") james@brks.cc
+          a(href="mailto:james.brooks@yrs.io") james.brooks@yrs.io
+        h1 By Social Media
+        ul#social
+          a(target="_blank", href="http://twitter.com/_jbrks")
+            li
+              img(src="img/twitter.png")
+          a(target="_blank", href="http://github.com/brks")
+            li
+              img(src="img/github.png")
+  p.credits Built with #[span ♥] in the United Kingdom.
+  p.technologies Powered by #[a(href="http://roots.cx/", target="_blank") Roots].
+  
+  script(type='text/javascript').
+    function initMap() {
+      var myLatLng = {lat: 52.954783, lng: -1.158109};
+
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 12,
+        center: myLatLng,
+        scrollwheel: false
+      });
+
+      var marker = new google.maps.Marker({
+        position: myLatLng,
+        map: map,
+        title: 'Nottingham, UK'
+      });
+    }
+  script(type='text/javascript', async, defer, src='https://maps.googleapis.com/maps/api/js?key=AIzaSyC2xedbtnejhlIudtdeP6XuPwmLnzcLaFo&callback=initMap')

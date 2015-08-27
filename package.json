@@ -1,0 +1,10 @@
+{
+  "name": "-james-brooks",
+  "description": "My portfolio site.",
+  "dependencies": {
+    "css-pipeline": "0.2.x",
+    "jade": "1.x",
+    "node-sass": "^3.2.0",
+    "roots-yaml": "0.0.4"
+  }
+}

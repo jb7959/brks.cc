@@ -1,0 +1,4 @@
+name: 'Terminal'
+icon: 'terminal.png'
+description: 'I use a lot of command line interfaces that I run from Terminal, such as Git and Sass compilation.'
+colour: 'white'

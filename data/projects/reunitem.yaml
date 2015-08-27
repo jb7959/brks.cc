@@ -1,0 +1,15 @@
+title: 'Reunitem'
+background: '#8e44ad'
+screenshot: 'img/reunitem.png'
+status: 'offline'
+tags:
+  - HTML
+  - CSS
+  - JavaScript
+  - jQuery
+details:
+  - Reunitem was the first project I worked on as part of a team.
+  - I was one of two people managing the Front-end of the application and I was mostly responsible for the branding and styles.
+  - The idea behind Reunitem was to create an online Lost-and-found solution.
+  - Users could logon and report items as Lost or Found, and then they would be shown on a large map with custom pins depending on the category of the item.
+  - The app was nominated for the 'Best Example of Design' award at the Festival of Code in 2013.
