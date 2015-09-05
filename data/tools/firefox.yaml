@@ -1,4 +1,4 @@
 name: 'Firefox'
 icon: 'firefox.png'
-description: 'I use Firefox for testing my web apps due to the fact it renders webpages differnetly to Safari and Google Chrome, so I need to ensure that my sites are compatible amongst all browsers.'
+description: 'I use Firefox for testing my web apps due to the fact it renders webpages differently to Safari and Google Chrome, so I need to ensure that my sites are compatible amongst all browsers.'
 colour: 'orange'

@@ -79,7 +79,7 @@ block content
               h3 Design
         #descriptions
           p I am skilled at producing rapid prototypes that are built-to-purpose.
-          p Turning a design into reality with code is my forté.
+          p Crafting elegant and responsive experiences for the web is what I do best.
           p I can complete a range of design work, from identity to styling.
   #footer
     .wrap
@@ -93,7 +93,7 @@ block content
           label(for="subject") Subject:
           input(placeholder="Pied Piper", class="text", type="text", name="_subject", id="subject")
           label(for="message") Message:
-          textarea(class="text", id="message")
+          textarea(class="text", id="message", name="message")
           input(class="button", type="submit", value="Send")
       .right
         #location
@@ -112,7 +112,16 @@ block content
               img(src="img/github.png")
   p.credits Built with #[span ♥] in the United Kingdom.
   p.technologies Powered by #[a(href="http://roots.cx/", target="_blank") Roots].
+  p.elevator Back to Top
   
+  script(type='text/javascript').
+    window.onload = function() {
+      var elevator = new Elevator({
+        element: document.querySelector('.elevator'),
+        mainAudio: 'audio/music.mp3',
+        endAudio: 'audio/ding.mp3'
+      });
+    }
   script(type='text/javascript').
     function initMap() {
       var myLatLng = {lat: 52.954783, lng: -1.158109};

@@ -1,5 +1,6 @@
 {
-  "name": "-james-brooks",
+  "name": "JamesBrooks",
+  "version":"1.0.1",
   "description": "My portfolio site.",
   "dependencies": {
     "css-pipeline": "0.2.x",

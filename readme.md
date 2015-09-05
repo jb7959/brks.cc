@@ -11,7 +11,10 @@ My portfolio site.
 - ???
 - profit
 
-### Deploying
+### Acknowledgements
 
-- If you just want to compile the production build, run `roots compile -e production` and it will build to public.
-- To deploy your site with a single command, run `roots deploy -to XXX` with `XXX` being whichever [ship](https://github.com/carrot/ship#usage) deployer you want to use.
+Header photo courtesy of [Paul Clarke](https://www.flickr.com/photos/paul_clarke).
+
+Audio in the Demo (sourced from [BenSound](http://www.bensound.com/)) is licenced under [Creative Commons](http://www.bensound.com/licensing).
+
+Copyright (C) 2015 [James Brooks](http://brks.cc) | [james@brks.cc](mailto:james@brks.cc)
