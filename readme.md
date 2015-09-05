@@ -13,8 +13,6 @@ My portfolio site.
 
 ### Acknowledgements
 
-Header photo courtesy of [Paul Clarke](https://www.flickr.com/photos/paul_clarke).
-
-Audio in the Demo (sourced from [BenSound](http://www.bensound.com/)) is licenced under [Creative Commons](http://www.bensound.com/licensing).
-
-Copyright (C) 2015 [James Brooks](http://brks.cc) | [james@brks.cc](mailto:james@brks.cc)
+- Header photo courtesy of [Paul Clarke](https://www.flickr.com/photos/paul_clarke).
+- Scroll to Top audio (sourced from [BenSound](http://www.bensound.com/)) is licenced under [Creative Commons](http://www.bensound.com/licensing).
+- Copyright 2015 [James Brooks](http://brks.cc) | [james@brks.cc](mailto:james@brks.cc)
