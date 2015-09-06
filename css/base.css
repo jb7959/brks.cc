@@ -153,6 +153,7 @@ body {
     background-position: center center;
     height: 800px;
     transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
     -webkit-backface-visibility: hidden;
     margin-top: -100px;
     margin-left: -100px;
@@ -161,6 +162,7 @@ body {
     #page #site-head .background {
       height: 100%;
       transform: rotate(-5deg);
+      -webkit-transform: rotate(-5deg);
       margin-left: 100px;
       margin-right: 90px;
       background-color: rgba(33, 150, 243, 0.6);
@@ -170,6 +172,7 @@ body {
         position: relative;
         top: 50%;
         transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
         margin-top: 50px; }
         #page #site-head .background .wrap h1 {
           text-align: left;
@@ -328,16 +331,19 @@ body {
       background-color: #e34f50;
       height: 550px;
       transform: rotate(-5deg);
+      -webkit-transform: rotate(-5deg);
       margin-left: -100px;
       margin-right: -100px; }
       #page main #young-rewired .wrap {
         transform: rotate(5deg);
+        -webkit-transform: rotate(5deg);
         text-align: center;
         height: 100%; }
         #page main #young-rewired .wrap .content {
           position: relative;
           top: 50%;
           transform: translateY(-50%);
+          -webkit-transform: translateY(-50%);
           margin: 0px 20px; }
           #page main #young-rewired .wrap .content img {
             max-width: 100%; }
@@ -504,7 +510,8 @@ body {
           #page main #skills #skills-list li .info {
             position: relative;
             top: 50%;
-            transform: translateY(-50%); }
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%); }
             #page main #skills #skills-list li .info img {
               max-height: 80px; }
             #page main #skills #skills-list li .info h3 {
@@ -523,6 +530,7 @@ body {
     #page main #footer {
       background-color: #212121;
       transform: rotate(5deg);
+      -webkit-transform: rotate(5deg);
       margin-left: -100px;
       margin-right: -100px;
       text-align: center;
@@ -533,6 +541,7 @@ body {
       -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); }
       #page main #footer .wrap {
         transform: rotate(-5deg);
+        -webkit-transform: rotate(-5deg);
         color: #FFFFFF;
         padding: 150px 0px;
         display: inline-block;
