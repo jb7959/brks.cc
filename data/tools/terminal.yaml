@@ -1,4 +1,4 @@
 name: 'Terminal'
 icon: 'terminal.png'
-description: 'I use a lot of command line interfaces that I run from Terminal, such as Git and Sass compilation.'
+description: 'I use a lot of command line interfaces, which I run from Terminal. An example of this would be Git, which I use to version control all of my code.'
 colour: 'white'

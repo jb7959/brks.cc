@@ -85,6 +85,7 @@ body {
     background-position: center center;
     height: 800px;
     transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
     -webkit-backface-visibility: hidden;
     margin-top: -100px;
     margin-left: -100px;
@@ -93,6 +94,7 @@ body {
     .background {
       height: 100%;
       transform: rotate(-5deg);
+      -webkit-transform: rotate(-5deg);
       margin-left: 100px;
       margin-right: 90px;
       background-color: rgba(33, 150, 243, 0.6);
@@ -102,6 +104,7 @@ body {
         position: relative;
         top: 50%;
         transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
         margin-top: 50px;
         h1 {
           text-align: left;
@@ -282,16 +285,19 @@ body {
       background-color: #e34f50;
       height: 550px;
       transform: rotate(-5deg);
+      -webkit-transform: rotate(-5deg);
       margin-left: -100px;
       margin-right: -100px;
       .wrap {
         transform: rotate(5deg);
+        -webkit-transform: rotate(5deg);
         text-align: center;
         height: 100%;
         .content {
           position: relative;
           top: 50%;
           transform: translateY(-50%);
+          -webkit-transform: translateY(-50%);
           margin: 0px 20px;
           img {
             max-width: 100%;
@@ -474,6 +480,7 @@ body {
             position: relative;
             top: 50%;
             transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
             img {
               max-height: 80px;
             }
@@ -500,6 +507,7 @@ body {
     #footer {
       background-color: $black;
       transform: rotate(5deg);
+      -webkit-transform: rotate(5deg);
       margin-left: -100px;
       margin-right: -100px;
       text-align: center;
@@ -508,6 +516,7 @@ body {
       @include box-shadow(3px, 3px, 5px, rgba(0,0,0,0.5));
       .wrap {
         transform: rotate(-5deg);
+        -webkit-transform: rotate(-5deg);
         color: $white;
         padding: 150px 0px;
         display: inline-block;
