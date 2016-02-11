@@ -1,0 +1,11 @@
+title: 'Hack the Holidays'
+background: '#65B786'
+screenshot: 'img/hackthehols.png'
+tags:
+  - HTML
+  - CSS
+  - JavaScript
+details:
+  - I built the website for our first event in December 2015.
+  - The website was built upon the Roots static site generator
+  - Certain elements of the site, such as the list of sponsors, were loaded in with YAML to make updating the site an even easier process.

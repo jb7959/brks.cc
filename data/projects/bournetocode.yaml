@@ -1,0 +1,11 @@
+title: 'Bourne to Code'
+background: '#DA2127'
+screenshot: 'img/bournetocode.png'
+tags:
+  - HTML
+  - Sass
+  - JavaScript
+  - jQuery
+details:
+  - Bourne to Code is an online web portal of guides for students at the school to use during lessons.
+  - The site is designed to match the colour scheme of the school logo and features photos from our school hackathon society, Bourne to Hack.

@@ -22,7 +22,6 @@ block content
           .info-container
             .info
               h1= project.title
-              h3 Status: #[span(class=project.status)] #{project.status}
               h4.tags Tags:
               ul#tags
                 each tag in project.tags
@@ -32,35 +31,13 @@ block content
               ul#details
                 each detail in project.details
                   li= detail
-  #young-rewired
+  #hackthehols
     .wrap
       .content
-        img(src="img/ruby-eyes.gif")
-        h1 I'm an Ambassador for #[a(href="http://yrs.io") Young Rewired State]
-        p Young Rewired State Ambassadors are the most passionate and enthusiastic members of the community. They help foster the local community in their region and work with the core team to put on awesome events.
-  #about
-    h2 About Me
-    .editor
-      .top-bar
-        .buttons
-          .red
-          .orange
-          .green
-        span untitled - Atom
-      .window
-        p I'm #[span.blue James] and I'm a #[span.pink Web developer]. I have been programming as a hobby for #[span.red 3 years], and I specialize in #[span.green Front-end web development]. However, I've also had experience with #[span.purple Python]. I love attending #[span.orange hackathons] and #[span.teal conferences]. When I'm not at my desk, I enjoy #[span.indigo watching movies] and #[span.amber taking photos].
-  #tools
-    .shadow
-    .background
-    .content
-      img(class="mac", src="img/mac.png")
-      h1 My Development Toolkit
-      ul#tools-list
-        each tool in data.tools
-          li
-            img(class="icon", src="img/" + tool.icon)
-            span(class=tool.colour)= tool.name
-            p= tool.description
+        img(src="img/hth-logo.png")
+        h1 Director of Sponsorships at #[a(href="http://hacktheholidays.io") Hack the Holidays]
+        p Hack the Holidays is Peterborough's first 24 hour student hackathon. My main role inside of Hack the Holidays is to raise money in order to keep our events free and accessible to all that want to attend. I raised money in the form of commercial sponsorships for our first event from both local and national companies.
+
   #skills
         img(class="strength-img", src="img/dumbbell.png")
         h1 My Strengths
@@ -81,6 +58,7 @@ block content
           p I am skilled at producing rapid prototypes that are built-to-purpose.
           p Crafting elegant and responsive experiences for the web is what I do best.
           p I can complete a range of design work, from identity to styling.
+
   #footer
     .wrap
       .left
@@ -101,7 +79,7 @@ block content
         h1 By Email
         #mail
           a(href="mailto:james@brks.cc") james@brks.cc
-          a(href="mailto:james.brooks@yrs.io") james.brooks@yrs.io
+          a(href="mailto:james@hacktheholidays.io") james@hacktheholidays.io
         h1 By Social Media
         ul#social
           a(target="_blank", href="http://twitter.com/_jbrks")
@@ -124,7 +102,7 @@ block content
     }
   script(type='text/javascript').
     function initMap() {
-      var myLatLng = {lat: 52.954783, lng: -1.158109};
+      var myLatLng = {lat: 52.569498, lng: -0.240530};
 
       var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 12,
@@ -135,7 +113,7 @@ block content
       var marker = new google.maps.Marker({
         position: myLatLng,
         map: map,
-        title: 'Nottingham, UK'
+        title: 'Peterborough, UK'
       });
     }
   script(type='text/javascript', async, defer, src='https://maps.googleapis.com/maps/api/js?key=AIzaSyC2xedbtnejhlIudtdeP6XuPwmLnzcLaFo&callback=initMap')

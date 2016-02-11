@@ -97,7 +97,7 @@ body {
       -webkit-transform: rotate(-5deg);
       margin-left: 100px;
       margin-right: 90px;
-      background-color: rgba(33, 150, 243, 0.6);
+      background-color: rgba($purple, 0.6);
       box-sizing: content-box;
       padding-bottom: 100px;
       .wrap {
@@ -215,27 +215,13 @@ body {
           margin: 20px;
           overflow: auto;
           .info {
+            h1 {
+              margin-bottom: 10px;
+            }
             h1, h3, h4 {
               font-family: $default-fonts;
               color: $white;
               font-weight: normal;
-            }
-            h3 {
-              margin-bottom: 10px;
-              text-transform: capitalize;
-            }
-            .online {
-              display: inline-block;
-              width: 12px;
-              height: 12px;
-              margin-top: 1px;
-              @include border-radius(100%);
-              background-color: #4CAF50;
-              border: 1px solid $white;
-            }
-            .offline {
-              @extend .online;
-              background-color: #D32F2F;
             }
             .tags {
               display: block;
@@ -280,10 +266,10 @@ body {
         float: left;
       }
     }
-    #young-rewired {
+    #hackthehols {
       display: block;
-      background-color: #e34f50;
-      height: 550px;
+      background-color: #65B786;
+      height: 650px;
       transform: rotate(-5deg);
       -webkit-transform: rotate(-5deg);
       margin-left: -100px;
@@ -300,7 +286,8 @@ body {
           -webkit-transform: translateY(-50%);
           margin: 0px 20px;
           img {
-            max-width: 100%;
+            max-width: 50vw;
+            max-height: 250px;
           }
           h1 {
             font-family: 'Open Sans';
@@ -327,129 +314,10 @@ body {
         }
       }
     }
-    #about {
-      margin-top: -125px;
-      padding: 200px 0px 50px;
-      width: 100%;
-      text-align: center;
-      .editor {
-        @include border-radius(5px);
-        max-width: 800px;
-        width: 100%;
-        margin: 20px auto 0px;
-        overflow: hidden;
-        background-color: #37474F;
-        @include box-shadow(3px,3px,10px,rgba(0,0,0,0.5));
-        .top-bar {
-          padding: 10px;
-          color: #262728;
-          background-color: #B4B4B4;
-          .buttons {
-            float: left;
-            .red {
-              padding: 0px 9px;
-              @include border-radius(100%);
-              background-color: #E53935;
-              display: inline;
-              margin-right: 5px;
-              margin-top: 5px;
-            }
-            .orange {
-              @extend .red;
-              background-color: #FF8F00;
-            }
-            .green {
-              @extend .red;
-              background-color: #4CAF50;
-            }
-          }
-        }
-        .window {
-          p {
-            padding: 20px;
-            margin-top: 20px;
-            font-size: 16pt;
-            margin: 0 auto;
-            font-family: 'Roboto Slab';
-            color: $white;
-          }
-        }
-      }
-    }
-    #tools {
-      overflow: hidden;
-      position: relative;
-      margin-bottom: 30px;
-      text-align: center;
-      .shadow {
-        @include box-shadow(0px, 0px, 20px, #000000, true);
-        position: absolute;
-        height: 100%;
-        top: 0;
-        left: -10px;
-        right: -10px;
-        z-index: 1000;
-      }
-      .background {
-        background-image: url('../img/elcapitan.jpg');
-        background-size: cover;
-        background-position: center center;
-        filter: blur(5px);
-        -webkit-filter: blur(5px);
-        margin: 0px -10px;
-        position: absolute;
-        top: -10px;
-        left: 0;
-        right: 0;
-        bottom: -10px;
-      }
-      .content {
-        overflow: visible;
-        position: relative;
-        z-index: 100;
-        height: 100%;
-        background-color: rgba(0,0,0,0.1);
-        h1 {
-          color: $white;
-          margin-top: 20px;
-          text-transform: uppercase;
-        }
-        #tools-list  {
-          margin: 10px auto 30px;
-          max-width: 900px;
-          display: flex;
-          display: -ms-flex;
-          display: -webkit-flex;
-          flex-wrap: wrap;
-          -webkit-flex-wrap: wrap;
-          li {
-            text-align: left;
-            padding: 10px;
-            margin: 10px;
-            color: $white;
-            width: calc(50% - 20px);
-            background-color: rgba(0,0,0,0.5);
-            @include border-radius(5px);
-            list-style: none;
-            .icon {
-              height: 35px;
-              margin-right: 10px;
-              float: left;
-            }
-            span {
-              line-height: 35px;
-            }
-            p {
-              margin-top: 10px;
-            }
-          }
-        }
-      }
-    }
     #skills {
       text-align: center;
       color: #3F51B5;
-      padding: 50px 0px 100px;
+      padding: 150px 0px;
       .strength-img {
         height: 25px;
       }
@@ -513,7 +381,6 @@ body {
       text-align: center;
       position: relative;
       z-index: 10000;
-      @include box-shadow(3px, 3px, 5px, rgba(0,0,0,0.5));
       .wrap {
         transform: rotate(-5deg);
         -webkit-transform: rotate(-5deg);

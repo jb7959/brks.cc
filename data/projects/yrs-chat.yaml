@@ -1,8 +1,6 @@
 title: 'Young Rewired State | Chat'
 background: '#e34f50'
 screenshot: 'img/yrs-chat.png'
-status: 'online'
-link: 'http://chat.yrs.io'
 tags:
   - HTML
   - CSS
@@ -12,4 +10,4 @@ details:
   - The project started out as an unofficial online live chat for members of the Young Rewired State community to use during the week of the annual Festival of Code.
   - As participants ourselves, we thought it would be useful to have for the duration of the event.
   - The site was designed as-per branding guidelines, and is now endorsed by the organisation as a primary form of communication between members of the community.
-  - I designed the application from scratch and it undertook several overhauls, and it is fully responsive.
+  - I designed the application from scratch and it undertook several overhauls. It is fully responsive.

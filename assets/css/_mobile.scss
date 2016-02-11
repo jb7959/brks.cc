@@ -1,3 +1,4 @@
+
 @media (max-width: 900px) {
   .wrap {
     width: auto !important;
@@ -22,37 +23,12 @@
     }
   }
 
-  #young-rewired .wrap {
+  #hackthehols .wrap {
     margin-left: 100px !important;
     margin-right: 100px !important;
   }
 
-  #about {
-    .editor {
-      margin: 20px !important;
-      width: auto !important;
-      display: block !important;
-    }
-  }
-
-  #tools {
-    .content {
-      .mac {
-        width: 100vw !important;
-      }
-      #tools-list {
-        display: block !important;
-        li {
-          display: block !important;
-          margin: 20px !important;
-          width: auto !important;
-        }
-      }
-    }
-  }
-
   #skills {
-    padding: 30px !important;
     h1 {
       display: block !important;
       margin-left: 0px !important;
@@ -80,29 +56,29 @@
   }
 
   #footer .wrap {
-    display: block !important;
-    margin: 50px 120px !important;
+    display: block;
+    margin: 50px 120px;
     .left {
-      margin: 0 auto !important;
-      display: block !important;
-      max-width: none !important;
+      margin: 0 auto;
+      display: block;
+      max-width: none;
       form {
         input {
-          max-width: none !important;
+          max-width: none;
         }
         textarea {
-          max-width: none !important;
+          max-width: none;
         }
         .button {
-          padding: 8px 0px !important;
-          width: 100% !important;
+          padding: 8px 0px;
+          width: 100%;
         }
       }
     }
     .right {
-      margin: 0 auto !important;
-      display: block !important;
-      max-width: none !important;
+      margin: 0 auto;
+      display: block;
+      max-width: none;
     }
   }
 }
@@ -116,21 +92,6 @@
       font-size: 4.5vw !important;
     }
   }
-  #about .editor {
-    .window {
-      p {
-        font-size: 4.2vw !important;
-      }
-    }
-  }
-
-  #tools {
-    .content {
-      h1 {
-        font-size: 6.5vw !important;
-      }
-    }
-  }
 
   #skills {
     #descriptions {
@@ -140,3 +101,4 @@
     }
   }
 }
+
