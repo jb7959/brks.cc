@@ -14,77 +14,59 @@
       margin: 10px !important;
       display: block !important;
       float: left !important; }
-  #young-rewired .wrap {
+  #hackthehols .wrap {
     margin-left: 100px !important;
     margin-right: 100px !important; }
-  #about .editor {
-    margin: 20px !important;
-    width: auto !important;
-    display: block !important; }
-  #tools .content .mac {
-    width: 100vw !important; }
-  #tools .content #tools-list {
-    display: block !important; }
-    #tools .content #tools-list li {
-      display: block !important;
-      margin: 20px !important;
-      width: auto !important; }
-  #skills {
-    padding: 30px !important; }
-    #skills h1 {
-      display: block !important;
-      margin-left: 0px !important; }
-    #skills #skills-list {
-      margin-top: 30px !important;
-      padding: 50px 0px !important; }
-      #skills #skills-list li {
-        float: none !important;
-        margin: -30px 0px !important;
-        margin-left: auto !important;
-        margin-right: auto !important; }
-    #skills #descriptions {
-      columns: 1 !important;
-      -moz-columns: 1 !important;
-      -webkit-columns: 1 !important;
-      max-width: 300px !important; }
-      #skills #descriptions p {
-        margin: 20px 0px 50px !important;
-        font-size: 3vw !important; }
-  #footer .wrap {
+  #skills h1 {
     display: block !important;
-    margin: 50px 120px !important; }
+    margin-left: 0px !important; }
+  #skills #skills-list {
+    margin-top: 30px !important;
+    padding: 50px 0px !important; }
+    #skills #skills-list li {
+      float: none !important;
+      margin: -30px 0px !important;
+      margin-left: auto !important;
+      margin-right: auto !important; }
+  #skills #descriptions {
+    columns: 1 !important;
+    -moz-columns: 1 !important;
+    -webkit-columns: 1 !important;
+    max-width: 300px !important; }
+    #skills #descriptions p {
+      margin: 20px 0px 50px !important;
+      font-size: 3vw !important; }
+  #footer .wrap {
+    display: block;
+    margin: 50px 120px; }
     #footer .wrap .left {
-      margin: 0 auto !important;
-      display: block !important;
-      max-width: none !important; }
+      margin: 0 auto;
+      display: block;
+      max-width: none; }
       #footer .wrap .left form input {
-        max-width: none !important; }
+        max-width: none; }
       #footer .wrap .left form textarea {
-        max-width: none !important; }
+        max-width: none; }
       #footer .wrap .left form .button {
-        padding: 8px 0px !important;
-        width: 100% !important; }
+        padding: 8px 0px;
+        width: 100%; }
     #footer .wrap .right {
-      margin: 0 auto !important;
-      display: block !important;
-      max-width: none !important; } }
+      margin: 0 auto;
+      display: block;
+      max-width: none; } }
 
 @media (max-width: 500px) {
   #site-head h1 {
     font-size: 12vw !important; }
   #site-head h3 {
     font-size: 4.5vw !important; }
-  #about .editor .window p {
-    font-size: 4.2vw !important; }
-  #tools .content h1 {
-    font-size: 6.5vw !important; }
   #skills #descriptions p {
     font-size: 5.3vw !important; } }
 
 .blue {
   color: #29B6F6; }
 
-.red, #page main #projects li.project .browser .top-bar .buttons .orange, #page main #projects li.project .browser .top-bar .buttons .green, #page main #about .editor .top-bar .buttons .orange, #page main #about .editor .top-bar .buttons .green {
+.red, #page main #projects li.project .browser .top-bar .buttons .orange, #page main #projects li.project .browser .top-bar .buttons .green {
   color: #F44336; }
 
 .pink {
@@ -165,7 +147,7 @@ body {
       -webkit-transform: rotate(-5deg);
       margin-left: 100px;
       margin-right: 90px;
-      background-color: rgba(33, 150, 243, 0.6);
+      background-color: rgba(171, 71, 188, 0.6);
       box-sizing: content-box;
       padding-bottom: 100px; }
       #page #site-head .background .wrap {
@@ -272,26 +254,12 @@ body {
         #page main #projects li.project .info-container {
           margin: 20px;
           overflow: auto; }
+          #page main #projects li.project .info-container .info h1 {
+            margin-bottom: 10px; }
           #page main #projects li.project .info-container .info h1, #page main #projects li.project .info-container .info h3, #page main #projects li.project .info-container .info h4 {
             font-family: "Roboto", sans-serif;
             color: #FFFFFF;
             font-weight: normal; }
-          #page main #projects li.project .info-container .info h3 {
-            margin-bottom: 10px;
-            text-transform: capitalize; }
-          #page main #projects li.project .info-container .info .online, #page main #projects li.project .info-container .info .offline {
-            display: inline-block;
-            width: 12px;
-            height: 12px;
-            margin-top: 1px;
-            border-radius: 100%;
-            -ms-border-radius: 100%;
-            -moz-border-radius: 100%;
-            -webkit-border-radius: 100%;
-            background-color: #4CAF50;
-            border: 1px solid #FFFFFF; }
-          #page main #projects li.project .info-container .info .offline {
-            background-color: #D32F2F; }
           #page main #projects li.project .info-container .info .tags {
             display: block;
             margin-bottom: 5px;
@@ -326,28 +294,29 @@ body {
         float: right; }
       #page main #projects li.project:nth-child(2n-1) .browser {
         float: left; }
-    #page main #young-rewired {
+    #page main #hackthehols {
       display: block;
-      background-color: #e34f50;
-      height: 550px;
+      background-color: #65B786;
+      height: 650px;
       transform: rotate(-5deg);
       -webkit-transform: rotate(-5deg);
       margin-left: -100px;
       margin-right: -100px; }
-      #page main #young-rewired .wrap {
+      #page main #hackthehols .wrap {
         transform: rotate(5deg);
         -webkit-transform: rotate(5deg);
         text-align: center;
         height: 100%; }
-        #page main #young-rewired .wrap .content {
+        #page main #hackthehols .wrap .content {
           position: relative;
           top: 50%;
           transform: translateY(-50%);
           -webkit-transform: translateY(-50%);
           margin: 0px 20px; }
-          #page main #young-rewired .wrap .content img {
-            max-width: 100%; }
-          #page main #young-rewired .wrap .content h1 {
+          #page main #hackthehols .wrap .content img {
+            max-width: 50vw;
+            max-height: 250px; }
+          #page main #hackthehols .wrap .content h1 {
             font-family: 'Open Sans';
             color: #FFFFFF;
             font-weight: 300;
@@ -355,131 +324,21 @@ body {
             border-bottom: 1px #FFFFFF solid;
             max-width: 800px;
             margin: 0 auto; }
-          #page main #young-rewired .wrap .content p {
+          #page main #hackthehols .wrap .content p {
             font-family: 'Open Sans';
             color: #FFFFFF;
             font-weight: 300;
             padding: 15px;
             max-width: 700px;
             margin: 0 auto; }
-          #page main #young-rewired .wrap .content a {
+          #page main #hackthehols .wrap .content a {
             text-decoration: none;
             font-weight: 400;
             color: #FFFFFF; }
-    #page main #about {
-      margin-top: -125px;
-      padding: 200px 0px 50px;
-      width: 100%;
-      text-align: center; }
-      #page main #about .editor {
-        border-radius: 5px;
-        -ms-border-radius: 5px;
-        -moz-border-radius: 5px;
-        -webkit-border-radius: 5px;
-        max-width: 800px;
-        width: 100%;
-        margin: 20px auto 0px;
-        overflow: hidden;
-        background-color: #37474F;
-        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
-        -moz-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
-        -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5); }
-        #page main #about .editor .top-bar {
-          padding: 10px;
-          color: #262728;
-          background-color: #B4B4B4; }
-          #page main #about .editor .top-bar .buttons {
-            float: left; }
-            #page main #about .editor .top-bar .buttons .red, #page main #about .editor #projects li.project .browser .top-bar .buttons .orange, #page main #projects li.project .browser #about .editor .top-bar .buttons .orange, #page main #about .editor #projects li.project .browser .top-bar .buttons .green, #page main #projects li.project .browser #about .editor .top-bar .buttons .green, #page main #about .editor .top-bar .buttons .orange, #page main #about .editor .top-bar .buttons .green {
-              padding: 0px 9px;
-              border-radius: 100%;
-              -ms-border-radius: 100%;
-              -moz-border-radius: 100%;
-              -webkit-border-radius: 100%;
-              background-color: #E53935;
-              display: inline;
-              margin-right: 5px;
-              margin-top: 5px; }
-            #page main #about .editor .top-bar .buttons .orange {
-              background-color: #FF8F00; }
-            #page main #about .editor .top-bar .buttons .green {
-              background-color: #4CAF50; }
-        #page main #about .editor .window p {
-          padding: 20px;
-          margin-top: 20px;
-          font-size: 16pt;
-          margin: 0 auto;
-          font-family: 'Roboto Slab';
-          color: #FFFFFF; }
-    #page main #tools {
-      overflow: hidden;
-      position: relative;
-      margin-bottom: 30px;
-      text-align: center; }
-      #page main #tools .shadow {
-        box-shadow: inset 0px 0px 20px #000000;
-        -moz-box-shadow: inset 0px 0px 20px #000000;
-        -webkit-box-shadow: inset 0px 0px 20px #000000;
-        position: absolute;
-        height: 100%;
-        top: 0;
-        left: -10px;
-        right: -10px;
-        z-index: 1000; }
-      #page main #tools .background {
-        background-image: url("../img/elcapitan.jpg");
-        background-size: cover;
-        background-position: center center;
-        filter: blur(5px);
-        -webkit-filter: blur(5px);
-        margin: 0px -10px;
-        position: absolute;
-        top: -10px;
-        left: 0;
-        right: 0;
-        bottom: -10px; }
-      #page main #tools .content {
-        overflow: visible;
-        position: relative;
-        z-index: 100;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.1); }
-        #page main #tools .content h1 {
-          color: #FFFFFF;
-          margin-top: 20px;
-          text-transform: uppercase; }
-        #page main #tools .content #tools-list {
-          margin: 10px auto 30px;
-          max-width: 900px;
-          display: flex;
-          display: -ms-flex;
-          display: -webkit-flex;
-          flex-wrap: wrap;
-          -webkit-flex-wrap: wrap; }
-          #page main #tools .content #tools-list li {
-            text-align: left;
-            padding: 10px;
-            margin: 10px;
-            color: #FFFFFF;
-            width: calc(50% - 20px);
-            background-color: rgba(0, 0, 0, 0.5);
-            border-radius: 5px;
-            -ms-border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            list-style: none; }
-            #page main #tools .content #tools-list li .icon {
-              height: 35px;
-              margin-right: 10px;
-              float: left; }
-            #page main #tools .content #tools-list li span {
-              line-height: 35px; }
-            #page main #tools .content #tools-list li p {
-              margin-top: 10px; }
     #page main #skills {
       text-align: center;
       color: #3F51B5;
-      padding: 50px 0px 100px; }
+      padding: 150px 0px; }
       #page main #skills .strength-img {
         height: 25px; }
       #page main #skills h1 {
@@ -535,10 +394,7 @@ body {
       margin-right: -100px;
       text-align: center;
       position: relative;
-      z-index: 10000;
-      box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-      -moz-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-      -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); }
+      z-index: 10000; }
       #page main #footer .wrap {
         transform: rotate(-5deg);
         -webkit-transform: rotate(-5deg);
